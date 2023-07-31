@@ -1,0 +1,100 @@
+@media(max-width:768px){
+    .nav-left{
+        display: none;
+    }
+    .nav-right{
+        width: 50%;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        
+        }
+        .gg-menu {
+            transform: scale(var(--ggs,1))
+           }
+           
+           .gg-menu,
+           .gg-menu::after,
+           .gg-menu::before {
+            box-sizing: border-box;
+            position: relative;
+            display: block;
+            width: 20px;
+            height: 2px;
+            border-radius: 3px;
+            background: currentColor
+           }
+           
+           .gg-menu::after,
+           .gg-menu::before {
+            content: "";
+            position: absolute;
+            top: -6px
+           }
+           
+           .gg-menu::after {
+            top: 6px
+           } 
+           .head-p1{
+            color: #FFF;
+        font-family: Roboto;
+        font-size: 44px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 75.6px; /* 118.125% */
+        width: 80%;
+        }
+        header{
+            background-image: url(IMAGE.png);
+            background-size: cover;
+        height: 705px;
+        font-family: 'Roboto', sans-serif;
+        
+        flex-shrink: 0;}    
+        .head-p2{
+            color: #FFF;
+        font-family: Roboto;
+        font-size: 15px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 26px; /* 152.941% */
+        margin-bottom: 20px;
+        }
+        .left-1 h1{
+            color: #FFF;
+        font-family: Roboto;
+        font-size: 30px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 44.1px; /* 105% */
+        
+        margin-top: 10px;
+        }
+        .left-1{
+            color: white;
+            font-family: 'Roboto', sans-serif;
+            width: 90%  ;
+            text-align: center;
+            margin-top: 15px;
+        
+        }
+        .top-1{
+            height: 400px;
+            flex-direction: column;
+            }
+            .right-1{
+                width: 85%;
+                font-family: 'Roboto', sans-serif;
+                margin-bottom: 20px;
+            
+            }
+            .right-1 p{
+                color: #FFF;
+                font-family: 'Roboto', sans-serif;
+            font-size: 14px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 20.8px; /* 130% */
+            margin: 3px 0 14px 0;
+            }
+}
