@@ -2,6 +2,14 @@
     .nav-left{
         display: none;
     }
+    header{
+    background-image: url(img/IMAGE.png) !important;
+    background-size: cover;
+height: 845px;
+font-family: 'Roboto', sans-serif;
+margin-top: 30px;
+flex-shrink: 0;
+}
     .nav-right{
         width: 50%;
         display: flex;
@@ -97,4 +105,17 @@
             line-height: 20.8px; /* 130% */
             margin: 3px 0 14px 0;
             }
+            .cards{
+                flex-direction: column;
+
+            }
+            .card{
+                width: 90%;
+                margin: 10px  auto;
+                
+            }
+            .svg{
+    margin: 20px auto 50px auto;
+    padding-bottom: 50px;
+}
 }

@@ -70,7 +70,7 @@ ul{
 }
 /* head */
 header{
-    background-image: url(IMAGE.png);
+    background-image: url(img/IMAGE.png);
     background-size: cover;
 height: 845px;
 font-family: 'Roboto', sans-serif;
@@ -238,4 +238,8 @@ padding: 4px !important;
 font-style: normal;
 font-weight: 400;
 line-height: 20px; /* 181.818% */
+}
+.img-second{
+    text-align: center;
+    margin: 50px auto;
 }
